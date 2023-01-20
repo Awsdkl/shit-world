@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "shit-world",
+  "version": "${version}",
+  "name": "Shit World",
+  "description": "这个模组添加了一个关于答辩的世界",
+  "authors": [
+    "Awsdkl"
+  ],
+  "contact": {
+    "repo": "https://github.com/Awsdkl/shit-world"
+  },
+  "license": "MIT",
+  "icon": "assets/shit-world/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.awsdkl.shitworld.client.ShitWorldClient"
+    ],
+    "main": [
+      "com.awsdkl.shitworld.ShitWorld"
+    ]
+  },
+  "mixins": [
+    "shit-world.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.13",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
