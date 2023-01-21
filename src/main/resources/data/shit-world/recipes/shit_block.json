@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "SS",
+    "SS"
+  ],
+  "key":
+  {
+    "S": {"item": "shit-world:shit"}
+  },
+  "result":
+  {
+    "item": "shit-world:shit_block",
+    "count": 1
+  }
+}
